@@ -1,0 +1,51 @@
+
+      
+h1 {
+  text-align: center;
+}
+
+p {
+    font-size: 24px;
+    color:black;
+}
+
+.fontLarge {
+    font-size: 36px;
+}
+
+.fontSmall {
+  font-size: 12px;
+}
+
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.centered {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.Arial {
+    font-family: Arial;
+}
+
+.short {
+    font-weight: bold;  color: orange; font-size: 36px;
+}
+
+.styledFont{
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}
