@@ -1,0 +1,106 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: left;
+  /**background-color: tomato;**/
+}
+
+body {
+}
+
+p{
+  float: left;
+}
+
+#p2 {
+  text-align: ;
+}
+
+img {
+  width: 200;
+  height: 200;
+  margin-right: 20px;
+}
+
+#left {
+  color:black;
+  background: dodgerblue;
+}
+
+#right {
+  color:black;
+  background: lime;
+}
+
+#left, #middle, #right {
+  float:left;
+  width: 10%;
+}
+
+#middle {
+  width: 80%;
+  color:black;
+  background: yellow;
+}
+
+#divTop {
+  height: 20%;
+  color: white;
+  background: green;
+}
+
+
+header, #about, #portfolio, #connect {
+  width: 15%;
+  float:left;
+  padding: 20px;
+  margin-top: 12%;
+}
+
+header {
+  text-align: left;
+  float:left;
+  width:55%;
+  color:white;
+  background: forestgreen;
+}
+
+
+#full {
+  float:left;
+  color: #333;
+  background: pink;
+  clear: right;
+  width: 100%;
+  max-height: fit-content;
+}
+
+
+#division {
+  padding: 20px;
+  max-width: 960px;
+  height: 60%;
+  color: #333;
+  background: orange;
+}
+
+
+aside {
+  padding: 20px;
+  max-width: 960px;
+  height: 15%;
+  color: #333;
+  background: #ccc;
+}
+
+
+footer {
+  float:left;
+  border-top: 3px solid #73AD21;
+  color: #333;
+  background: #ccc;
+  width : 100%;
+}
