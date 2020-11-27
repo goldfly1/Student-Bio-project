@@ -3,104 +3,114 @@
  **/
 
 * {
+  margin: 0px;
   box-sizing: border-box;
   text-align: left;
   /**background-color: tomato;**/
 }
 
 body {
-}
-
-p{
-  float: left;
-}
-
-#p2 {
-  text-align: ;
+  background: #ccc;
 }
 
 img {
-  width: 200;
-  height: 200;
+  float: left;
+  width: 200px;
+  height: 200px;
   margin-right: 20px;
 }
 
-#left {
-  color:black;
-  background: dodgerblue;
-}
-
-#right {
-  color:black;
-  background: lime;
-}
-
 #left, #middle, #right {
+  height: auto;
   float:left;
   width: 10%;
 }
 
 #middle {
   width: 80%;
+  max-width: 960px;
+  color:black;
+}
+
+#left {
+  height: 207px;
   color:black;
   background: yellow;
 }
 
-#divTop {
-  height: 20%;
-  color: white;
+#right {
+  color:black;
+  height: 207px;
   background: green;
 }
 
-
-header, #about, #portfolio, #connect {
-  width: 15%;
-  float:left;
-  padding: 20px;
-  margin-top: 12%;
+#divTop {
+  height: 207px;
+  background:white;
 }
 
-header {
-  text-align: left;
+section{
+  height: 100%;
+  background: #ccc;
+}
+
+header, #about, #portfolio, #connect {
+  text-align: right;
+  width: 12%;
   float:left;
-  width:55%;
-  color:white;
-  background: forestgreen;
+}
+
+header {/**
+  padding-left: 20px;
+  adding-top: 180px;
+  padding-bottom: 25;**/
+  text-align: bottom;
+  float:left;
+  color:#333;
+  background:aqua;
 }
 
 
 #full {
-  float:left;
+  margin:0 auto;
   color: #333;
-  background: pink;
-  clear: right;
-  width: 100%;
-  max-height: fit-content;
+  background: grey;
 }
 
 
 #division {
+  float:left;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
   padding: 20px;
   max-width: 960px;
-  height: 60%;
+  height: 400px;
+  line-height: 1.5;
   color: #333;
-  background: orange;
+  background: #fff;
 }
 
 
 aside {
-  padding: 20px;
-  max-width: 960px;
-  height: 15%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 20px;
+  height: 1500;
   color: #333;
-  background: #ccc;
+  background: #fff;
 }
 
-
 footer {
-  float:left;
+  float: left;
   border-top: 3px solid #73AD21;
-  color: #333;
-  background: #ccc;
+  height: 30px;
+  text-align: center;
+  font-size: 10px;
+  background: grey;
   width : 100%;
 }
